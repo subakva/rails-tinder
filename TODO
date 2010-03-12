@@ -1,0 +1,41 @@
+* gem/configuration
+  - bundler / gemtronics / ???
+  - configatron / plain ruby / database-backed
+* deployment
+  - ec2 / heroku / dreamhost / vps
+  - vlad / capistrano / ???
+  - asset hosts
+  - db:configure (by hostname)
+* development
+  - testlib: rspec + cucumber + rcov + metric_fu
+  - testlib: factory_girl
+  - testlib: fakeweb
+  - plugin: limerick_rake
+  - env: local host aliases
+  - data: test data generator
+* common helper gems/plugins
+  - searchlogic
+  - matthuhiggins-foreigner
+* front-end
+  - jquery (+ ui)
+  - boxy popovers
+  - blueprint
+  - yui
+  - google analytics
+  - a/b testing
+* common web gems/plugins
+  - rails_xss
+  - will_paginate
+  - asset_packager (gemify? middleware?)
+  - hoptoad_notifier / exceptional
+  - sitemap_generator
+  - rack-maintenance
+  - newrelic_rpm
+  - ssl_redirector (middleware?)
+* standard engines
+  - authentication (authlogic)
+  - authentication + activation (authlogic)
+  - api core - (oauth provider)
+  - delayed_job
+  - configuration_admin
+  - comments / notes
