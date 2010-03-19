@@ -1,3 +1,5 @@
 *.tmproj
+*.sqlite3
 log
 tmp
+.bundle
